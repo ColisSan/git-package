@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\Process;
 
 class BaseController extends Controller
 {
+    public ?OsTypeEnum $OsType;
     public $PROJECT_ROOT;
-    public OsTypeEnum $OsType;
 
     public function __construct(){
         $this->middleware(function ($request, $next) {
