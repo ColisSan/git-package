@@ -4,6 +4,6 @@ import Hello from '../js/components/hello.vue';
 
 const vueApp = createApp({});
 
-console.log("APP JS");
+console.log("APPsasas JS");
 vueApp.component('hello', Hello);
-vueApp.mount("#vue-app");
+vueApp.mount("#git-package-app");
