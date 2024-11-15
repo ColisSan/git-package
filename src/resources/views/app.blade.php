@@ -15,6 +15,8 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+        <script src="/vendor/git-package/app.js"></script>
     </head>
     <body class="antialiased">
         <div id="git-package-app">
