@@ -1,0 +1,7 @@
+{
+  "src/resources/js/app.js": {
+    "file": "app.js",
+    "isEntry": true,
+    "src": "src/resources/js/app.js"
+  }
+}
