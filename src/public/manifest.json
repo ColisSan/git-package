@@ -1,7 +1,8 @@
 {
   "src/resources/js/app.js": {
     "file": "app.js",
-    "isEntry": true,
-    "src": "src/resources/js/app.js"
+    "name": "app",
+    "src": "src/resources/js/app.js",
+    "isEntry": true
   }
 }

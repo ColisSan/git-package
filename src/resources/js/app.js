@@ -1,9 +1,13 @@
-import {createApp} from 'vue/dist/vue.esm-bundler.js';
+import { createApp } from 'vue';
 
-import Hello from '../js/components/hello.vue';
+import Index from './components/Index.vue';
 
-const vueApp = createApp({});
+// const vueApp = createApp({});
 
-console.log("APPsasas JSsddsadasdsdsadsadasdasd");
-vueApp.component('hello', Hello);
-vueApp.mount("#git-package-app");
+let app = createApp({});
+
+app.component('index', Index);
+app.mount('#git-package-app');
+
+// vueApp.component('hello', Hello);
+// vueApp.mount("#git-package-app");
